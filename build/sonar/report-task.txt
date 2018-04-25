@@ -1,0 +1,6 @@
+projectKey=dependency-management
+serverUrl=http://localhost:9000
+serverVersion=6.7.3.38370
+dashboardUrl=http://localhost:9000/dashboard/index/dependency-management
+ceTaskId=AWL9NATGaG3k4ZNF1N0T
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWL9NATGaG3k4ZNF1N0T

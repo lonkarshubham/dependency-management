@@ -1,3 +1,8 @@
+plugins {
+  id "org.sonarqube" version "2.5"
+}
+
+
 apply plugin: 'java'
 
 repositories {
@@ -12,6 +17,6 @@ dependencies {
 jar {
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     manifest {
-        attributes 'Main-Class': 'net.petrikainulainen.gradle.HelloWorld'
+        attributes 'Main-Class': 'java.net.petrikainulainen.gradle.HelloWorld'
     }
 }
